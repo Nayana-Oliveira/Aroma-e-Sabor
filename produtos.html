@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Aroma & Sabor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Aroma & Sabor</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Cardápio</a></li>
+                <li><a href="pedido.html">Meu Pedido</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="produtos-pagina">
+        <h2>Nosso Cardápio</h2>
+
+        <section class="categoria-produtos">
+            <h3>Cafés Especiais</h3>
+            <div class="produtos-grid">
+
+                <div class="produto-card">
+                    <img src="/img/expresso.jpg" alt="Café Expresso">
+                    <div class="card-content">
+                        <h3>Café Expresso</h3>
+                        <p>R$ 6,00</p>
+                        <button class="btn btn-secundario"
+                            onclick="adicionarProduto('Café Expresso', 6.00)">Adicionar</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <img src="/img/cappuccino.jpg" alt="Cappuccino">
+                    <div class="card-content">
+                        <h3>Cappuccino</h3>
+                        <p>R$ 8,00</p>
+                        <button class="btn btn-secundario"
+                            onclick="adicionarProduto('Cappuccino', 8.00)">Adicionar</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <img src="/img/latte.jpg" alt="Café Latte">
+                    <div class="card-content">
+                        <h3>Café Latte</h3>
+                        <p>R$ 7,50</p>
+                        <button class="btn btn-secundario"
+                            onclick="adicionarProduto('Café Latte', 7.50)">Adicionar</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="categoria-produtos">
+            <h3>Doces</h3>
+            <div class="produtos-grid">
+
+                <div class="produto-card">
+                    <img src="/img/brownie.jpg" alt="Brownie">
+                    <div class="card-content">
+                        <h3>Brownie</h3>
+                        <p>R$ 10,00</p>
+                        <button class="btn btn-secundario"
+                            onclick="adicionarProduto('Brownie', 10.00)">Adicionar</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <img src="/img/cheesecake.jpg" alt="Pão de Queijo">
+                    <div class="card-content">
+                        <h3>Cheesecake</h3>
+                        <p>R$ 10,00</p>
+                        <button class="btn btn-secundario"
+                            onclick="adicionarProduto('Pão de Queijo', 5.00)">Adicionar</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <img src="/img/muffin-chocolate.jpg" alt="Croissant">
+                    <div class="card-content">
+                        <h3>Muffin de Chocolate</h3>
+                        <p>R$ 8,00</p>
+                        <button class="btn btn-secundario"
+                            onclick="adicionarProduto('Croissant', 7.00)">Adicionar</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="categoria-produtos">
+            <h3>Salgados</h3>
+            <div class="produtos-grid">
+
+                <div class="produto-card">
+                    <img src="/img/palitos-de-queijo-venezuelano-tradicional.jpg" alt="Brownie">
+                    <div class="card-content">
+                        <h3>Palitos de queijo</h3>
+                        <p>R$ 15,00</p>
+                        <button class="btn btn-secundario"
+                            onclick="adicionarProduto('Brownie', 10.00)">Adicionar</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <img src="/img/pao-de-queijo.jpg" alt="Pão de Queijo">
+                    <div class="card-content">
+                        <h3>Pão de Queijo</h3>
+                        <p>R$ 5,00</p>
+                        <button class="btn btn-secundario"
+                            onclick="adicionarProduto('Pão de Queijo', 5.00)">Adicionar</button>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <img src="/img/croissant.jpg" alt="Croissant">
+                    <div class="card-content">
+                        <h3>Croissant</h3>
+                        <p>R$ 7,00</p>
+                        <button class="btn btn-secundario"
+                            onclick="adicionarProduto('Croissant', 7.00)">Adicionar</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <a href="index.html" class="footer-logo">Aroma & Sabor</a>
+                <p>Onde cada xícara conta uma história. Mais que uma cafeteria, um ponto de encontro.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html">Cardápio Completo</a></li>
+                    <li><a href="pedido.html">Meu Pedido</a></li>
+                    <li><a href="#">Sobre Nós (Página Fictícia)</a></li>
+                    <li><a href="#">Contato (Página Fictícia)</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Visite-nos</h4>
+                <p>Rua das Flores, 123</p>
+                <p>Centro, São Paulo - SP</p>
+                <p>CEP 01000-000</p>
+                <br>
+            </div>
+
+            <div class="footer-col">
+                <h4>Horários</h4>
+                <p><strong>Segunda a Sexta:</strong></p>
+                <p>8:00h - 19:00h</p>
+                <br>
+                <p><strong>Sábados e Feriados:</strong></p>
+                <p>9:00h - 17:00h</p>
+                <br>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Aroma & Sabor. Todos os direitos reservados. Projeto fictício.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
