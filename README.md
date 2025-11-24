@@ -35,5 +35,8 @@ Este projeto foi desenvolvido em dupla por:
 * **Nayana Heslley Barbosa Oliveira**
     * GitHub: `https://github.com/Nayana-Oliveira`
 
-* **Gabriela Rodrigues**
-    * GitHub: `https://github.com/Nickycaribou`
+* **Matheus Lima Viana**
+    * GitHub: `https://github.com/Matheuslviana29`
+      
+* **Lucas Matheus Andrade da Costa**
+    * GitHub: `https://github.com/valentelucass`
